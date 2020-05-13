@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jarvis.gmall.manager.mapper.PmsProductInfoMapper">
+
+
+    <select id="selectNull" resultType="java.util.Map">
+        select p.id id, p.product_name productName,p.description from pms_product_info p where id = 66;
+    </select>
+
+
+
+
+
+</mapper>

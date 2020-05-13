@@ -1,0 +1,33 @@
+server:
+  port: 8010
+
+#jdbc
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot_gmall_study
+    username: root
+    password: JXsy930628
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mapper/*Mapper.xml
+
+#dubbo
+dubbo:
+  application:
+    name: user-service
+  protocol:
+    name: dubbo
+  #注册中心
+  registry:
+    address: 192.168.101.20:2181
+    protocol: zookeeper
+  #包扫描
+  scan:
+    base-packages: com.jarvis.gmall
+
+#日志级别
+logging:
+  level:
+    com.jarvis.gmall: debug
+    org.springframework: debug

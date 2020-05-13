@@ -1,0 +1,17 @@
+server:
+  port: 8072
+dubbo:
+  protocol:
+    name: dubbo
+  application:
+    name: manager-web
+  registry:
+    protocol: zookeeper
+    address: 192.168.101.20:2181
+  consumer:
+    timeout: 600000
+    check: false
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
