@@ -25,7 +25,7 @@
         <mybatis.version>2.1.2</mybatis.version>
 <!--        <thymeleaf.version>2.2.5.RELEASE</thymeleaf.version>-->
         <redis.version>2.9.0</redis.version>
-        <httpclient.version>4.5.11</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <mapper-starter.version>2.1.5</mapper-starter.version>
 <!--        <elasticsearch.version>2.2.5.RELEASE</elasticsearch.version>-->
